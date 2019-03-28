@@ -29,7 +29,7 @@ const Card = () => (
     </CardContent>
     <CardFooter>
       <Button type="button">Join</Button>
-      <Button type="button" variant="outline" size="40%">
+      <Button type="button" variant="outline">
         Share
       </Button>
     </CardFooter>

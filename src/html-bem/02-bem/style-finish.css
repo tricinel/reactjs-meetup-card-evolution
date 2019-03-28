@@ -55,9 +55,4 @@ small {
 .card__footer {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-}
-
-.card__btn {
-  flex: 0 0 40%;
 }

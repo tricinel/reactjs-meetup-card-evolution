@@ -29,10 +29,7 @@ const Card = () => (
     </CardContent>
     <CardFooter>
       <Button type="button">Join</Button>
-      <Button
-        style={{ ...styles.button.outline, ...styles.button.footer }}
-        type="button"
-      >
+      <Button style={styles.button.outline} type="button">
         Share
       </Button>
     </CardFooter>
@@ -45,9 +42,6 @@ const styles = {
       border: '1px solid var(--button-bg-color)',
       backgroundColor: 'transparent',
       color: 'var(--button-bg-color)'
-    },
-    footer: {
-      flex: '0 0 40%'
     }
   }
 };

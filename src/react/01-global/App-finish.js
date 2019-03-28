@@ -22,10 +22,10 @@ const Card = () => (
       </p>
     </div>
     <div className="card__footer">
-      <button className="card__btn btn" type="button">
+      <button className="btn" type="button">
         Join
       </button>
-      <button className="card__btn btn btn--outline" type="button">
+      <button className="btn btn--outline" type="button">
         Share
       </button>
     </div>

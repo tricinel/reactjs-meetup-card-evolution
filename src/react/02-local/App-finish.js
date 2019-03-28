@@ -27,8 +27,7 @@ const Card = () => (
       <button
         style={{
           ...styles.button.regular,
-          ...styles.button.outline,
-          ...styles.button.footer
+          ...styles.button.outline
         }}
         type="button"
       >
@@ -76,8 +75,7 @@ const styles = {
   },
   footer: {
     display: 'flex',
-    justifyContent: 'space-between',
-    width: '100%'
+    justifyContent: 'space-between'
   },
   button: {
     regular: {
@@ -93,9 +91,6 @@ const styles = {
       border: '1px solid var(--button-bg-color)',
       backgroundColor: 'transparent',
       color: 'var(--button-bg-color)'
-    },
-    footer: {
-      flex: '0 0 40%'
     }
   }
 };

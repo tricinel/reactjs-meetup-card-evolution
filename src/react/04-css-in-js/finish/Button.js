@@ -9,7 +9,6 @@ const buttonVars = props =>
     --color: ${props.variant === 'outline'
       ? 'var(--button-bg-color)'
       : 'var(--button-color)'};
-    --flex-size: ${props.size || 'auto'};
   `;
 
 const Button = styled.button`
