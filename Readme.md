@@ -43,3 +43,7 @@ You can checkout a specific step at any point in time by changing the path to th
 - `import Card from './04-css-in-js/App-finish';`
 
 You can code along with the `start` files.
+
+## Slides
+
+The Keynote slides are available [here](https://www.icloud.com/keynote/0fY6YnOqSmTO4L-V2lSeSSASg#ReactJS-Deadth-by-1000-selectors)
