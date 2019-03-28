@@ -37,10 +37,10 @@ You can checkout a specific step at any point in time by changing the path to th
 
 `src/react/index.js` should contain either `start/finish` Card.js files.
 
-- `import Card from './01-global/App-finish';`
-- `import Card from './02-local/App-finish';`
-- `import Card from './03-components/App-finish';`
-- `import Card from './04-css-in-js/App-finish';`
+- `import Card from './01-global/Card-finish';`
+- `import Card from './02-local/Card-finish';`
+- `import Card from './03-components/Card-finish';`
+- `import Card from './04-css-in-js/Card-finish';`
 
 You can code along with the `start` files.
 

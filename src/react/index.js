@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Card from './01-global/App-start';
+import Card from './01-global/Card-start';
 
 import '../global.css';
 
@@ -12,5 +12,5 @@ render(
     <br />
     <Local />
   </>,
-  document.getElementById('card')
+  document.getElementById('app')
 );
