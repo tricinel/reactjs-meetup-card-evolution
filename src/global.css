@@ -1,0 +1,49 @@
+:root {
+  --h1-color: #068894;
+  --p-color: #20232a;
+  --small-color: #4a4a4a;
+  --card-bg-color: #fff;
+  --card-border-color: #ddd;
+  --button-bg-color: #315488;
+  --button-color: #fff;
+
+  --gutter: 1.6em;
+
+  --h1-font-size: 2;
+  --p-font-size: 1;
+  --small-font-size: 0.8;
+  --button-font-size: 1.2;
+
+  --p-line-height: 1.32;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  align-items: center;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+p {
+  color: var(--p-color);
+  font-size: calc(var(--p-font-size) * 1em);
+  font-weight: 400;
+  line-height: var(--p-line-height);
+  margin: calc(var(--gutter) / 2) 0;
+  padding: 0;
+}
+
+small {
+  color: var(--small-color);
+  font-size: calc(var(--small-font-size) * 1em);
+  font-weight: 300;
+}

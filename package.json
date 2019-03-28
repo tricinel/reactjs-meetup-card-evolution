@@ -1,0 +1,24 @@
+{
+  "name": "card",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "start:html": "parcel index.html --port 3000",
+    "start:react": "parcel index-react.html --port 3001"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "parcel-bundler": "^1.12.3"
+  }
+}
